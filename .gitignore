@@ -4,5 +4,4 @@
 .recommenders/
 RemoteSystemsTempFiles/
 Servers/
-*.class
-*/bin/
+*/bin
