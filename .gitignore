@@ -1,0 +1,8 @@
+.project
+.classpath
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+Servers/
+*.class
+bin/
