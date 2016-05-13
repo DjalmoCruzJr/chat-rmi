@@ -1,0 +1,82 @@
+12-05-2016 20:49:39,663; [main]; INFO ; br.facape.sistemas.distribuidos.chat.server.application.ServerApplication;  - Iniciando o servidor...
+12-05-2016 20:49:40,011; [main]; INFO ; br.facape.sistemas.distribuidos.chat.server.application.ServerApplication;  - Servidor iniciado com sucesso!
+12-05-2016 20:50:04,527; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Tentando carregar as configurações do serviço: br.facape.sistemas.distribuidos.server.service.chat.name
+12-05-2016 20:50:04,530; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Configurações carregadas com sucesso!
+12-05-2016 20:50:04,532; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Tentando carregar as configurações do serviço: br.facape.sistemas.distribuidos.server.service.chat.port
+12-05-2016 20:50:04,534; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Configurações carregadas com sucesso!
+12-05-2016 20:50:46,335; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Tentando carregar as configurações do serviço: br.facape.sistemas.distribuidos.server.service.chat.name
+12-05-2016 20:50:46,337; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Configurações carregadas com sucesso!
+12-05-2016 20:50:46,338; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Tentando carregar as configurações do serviço: br.facape.sistemas.distribuidos.server.service.chat.port
+12-05-2016 20:50:46,340; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.utils.ServicesUtils;  - Configurações carregadas com sucesso!
+12-05-2016 20:50:46,918; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Instanciando servico de chat.
+12-05-2016 20:50:47,008; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Servico de chat isntanciado com sucesso!
+12-05-2016 20:50:48,758; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.application.ui.ChatWindow;  - Serviço de chat iniciado com sucesso! [nome:chat, porta: 1000]
+12-05-2016 20:51:19,956; [RMI TCP Connection(2)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Novo usuario tentando se conectar: br.facape.sistemas.distribuidos.chat.utils.beans.User@6660e730[
+  nickname=djalmo
+  host=192.168.7.122
+]
+12-05-2016 20:51:20,021; [RMI TCP Connection(2)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Nova mensagem: br.facape.sistemas.distribuidos.chat.utils.beans.Message@ba833a5[
+  user=br.facape.sistemas.distribuidos.chat.utils.beans.User@6660e730[
+  nickname=djalmo
+  host=192.168.7.122
+]
+  text=[12/05/2016 20:51:19] DJALMO(192.168.7.122) ENTROU!
+  date=Thu May 12 20:51:19 BRT 2016
+]
+12-05-2016 20:51:20,022; [RMI TCP Connection(2)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - [12/05/2016 20:51:19] DJALMO(192.168.7.122) ENTROU!
+12-05-2016 20:51:46,331; [RMI TCP Connection(5)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Novo usuario tentando se conectar: br.facape.sistemas.distribuidos.chat.utils.beans.User@510d4d77[
+  nickname=thomas
+  host=192.168.7.122
+]
+12-05-2016 20:51:46,333; [RMI TCP Connection(5)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Nova mensagem: br.facape.sistemas.distribuidos.chat.utils.beans.Message@295088fc[
+  user=br.facape.sistemas.distribuidos.chat.utils.beans.User@510d4d77[
+  nickname=thomas
+  host=192.168.7.122
+]
+  text=[12/05/2016 20:51:46] THOMAS(192.168.7.122) ENTROU!
+  date=Thu May 12 20:51:46 BRT 2016
+]
+12-05-2016 20:51:46,334; [RMI TCP Connection(5)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - [12/05/2016 20:51:46] THOMAS(192.168.7.122) ENTROU!
+12-05-2016 20:52:01,869; [RMI TCP Connection(6)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Nova mensagem: br.facape.sistemas.distribuidos.chat.utils.beans.Message@63407dec[
+  user=br.facape.sistemas.distribuidos.chat.utils.beans.User@6d878ff4[
+  nickname=thomas
+  host=192.168.7.122
+]
+  text=[12/05/2016 20:52:01] THOMAS(192.168.7.122): Teste
+  date=Thu May 12 20:52:01 BRT 2016
+]
+12-05-2016 20:52:11,753; [RMI TCP Connection(3)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Nova mensagem: br.facape.sistemas.distribuidos.chat.utils.beans.Message@568c86ec[
+  user=br.facape.sistemas.distribuidos.chat.utils.beans.User@524b7615[
+  nickname=djalmo
+  host=192.168.7.122
+]
+  text=[12/05/2016 20:52:11] DJALMO(192.168.7.122): teste
+  date=Thu May 12 20:52:11 BRT 2016
+]
+12-05-2016 20:52:40,136; [RMI TCP Connection(6)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Usuario tentando se desconectar: br.facape.sistemas.distribuidos.chat.utils.beans.User@2cba85cf[
+  nickname=thomas
+  host=192.168.7.122
+]
+12-05-2016 20:52:40,139; [RMI TCP Connection(6)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Nova mensagem: br.facape.sistemas.distribuidos.chat.utils.beans.Message@4c7522a9[
+  user=br.facape.sistemas.distribuidos.chat.utils.beans.User@2cba85cf[
+  nickname=thomas
+  host=192.168.7.122
+]
+  text=[12/05/2016 20:52:40] THOMAS(192.168.7.122) SAIU!
+  date=Thu May 12 20:52:40 BRT 2016
+]
+12-05-2016 20:52:40,140; [RMI TCP Connection(6)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - [12/05/2016 20:52:40] THOMAS(192.168.7.122) SAIU!
+12-05-2016 20:52:46,816; [RMI TCP Connection(3)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Usuario tentando se desconectar: br.facape.sistemas.distribuidos.chat.utils.beans.User@5b0a5c29[
+  nickname=djalmo
+  host=192.168.7.122
+]
+12-05-2016 20:52:46,818; [RMI TCP Connection(3)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - Nova mensagem: br.facape.sistemas.distribuidos.chat.utils.beans.Message@4bc7dbf[
+  user=br.facape.sistemas.distribuidos.chat.utils.beans.User@5b0a5c29[
+  nickname=djalmo
+  host=192.168.7.122
+]
+  text=[12/05/2016 20:52:46] DJALMO(192.168.7.122) SAIU!
+  date=Thu May 12 20:52:46 BRT 2016
+]
+12-05-2016 20:52:46,819; [RMI TCP Connection(3)-192.168.7.122]; INFO ; br.facape.sistemas.distribuidos.chat.server.services.ChatService;  - [12/05/2016 20:52:46] DJALMO(192.168.7.122) SAIU!
+12-05-2016 20:52:55,123; [AWT-EventQueue-0]; INFO ; br.facape.sistemas.distribuidos.chat.server.application.ui.ChatWindow;  - Serviço de chat parado com sucesso!
